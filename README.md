@@ -1,10 +1,10 @@
-# Retail Analytics Dashboard
+# Executive Retail Intelligence Platform
 
 ## Project Overview
 
-The Retail Analytics Dashboard is an end-to-end Business Intelligence solution developed in Power BI to analyze retail business performance. The dashboard transforms raw retail transaction data into meaningful insights that support strategic decision-making through interactive visualizations, key performance indicators (KPIs), customer segmentation, product analysis, sales trends, and revenue forecasting.
+The Executive Retail Intelligence Platform is an executive-level Business Intelligence dashboard developed in **Microsoft Power BI** to transform retail transaction data into strategic business insights. The dashboard enables decision-makers to monitor business performance, understand customer behavior, evaluate product performance, analyze geographic trends, and identify growth opportunities through an intuitive six-page interactive reporting solution.
 
-This project demonstrates the complete Business Intelligence workflow, including data preparation, data modeling, DAX calculations, forecasting, and dashboard design.
+This project demonstrates advanced Business Intelligence concepts including data modeling, DAX calculations, customer segmentation using RFM Analysis, forecasting, and executive storytelling.
 
 ---
 
@@ -20,140 +20,202 @@ This project demonstrates the complete Business Intelligence workflow, including
 
 ## Dashboard Pages
 
-### Executive Overview
+### 1. Executive Overview
 
-Provides a high-level summary of overall business performance.
+Provides a comprehensive overview of business performance through executive KPIs and trend analysis.
 
-**KPIs**
-- Total Revenue
+**Key KPIs**
+- Revenue
 - Total Orders
 - Total Customers
-- Churn Rate
+- Champion Customers
+- Loyal Customers
 - Average Order Value
-- Forecast Revenue
 
 **Visualizations**
-- Monthly Revenue Trend
-- Revenue by Country
-- Top 10 Countries by Revenue
+- Revenue Trend
+- Customer Growth Trend
+- Order Trend
+- Top Revenue Countries
 - Executive Insights
 
 ---
 
-### Customer Analytics
+### 2. Customer Intelligence
 
-Analyzes customer behavior using RFM segmentation.
+Analyzes customer behavior using RFM Segmentation to identify high-value customers and retention opportunities.
 
-**KPIs**
-- Total Customers
+**Key KPIs**
 - Champion Customers
 - Loyal Customers
-- At-Risk Customers
+- Potential Loyalists
+- Total Customers
 
 **Visualizations**
-- Customer Segmentation
-- Revenue by Customer Segment
+- Customer Distribution by Segment
+- Revenue Contribution by Segment
+- Orders by Customer Segment
+- Average Order Value by Segment
 - Top Customers by Revenue
 
 ---
 
-### Product Analytics
+### 3. Product Analytics
 
-Evaluates product performance and purchasing behavior.
+Evaluates product performance, sales contribution, and product profitability.
 
-**KPIs**
+**Key KPIs**
 - Total Products
-- Top Product Revenue
-- Units Sold
+- Total Quantity Sold
+- Total Revenue
 - Average Product Revenue
 
 **Visualizations**
 - Top Products by Revenue
-- Top Products by Units Sold
-- Product Revenue Distribution
-- Product Association Analysis (Market Basket Analysis)
+- Revenue Generating Products
+- Product Revenue Treemap
+- Quantity Sold by Product
+- Revenue vs Quantity Analysis
 
 ---
 
-### Sales Analytics
+### 4. Geographic Analytics
 
-Provides sales performance insights across time and geography.
+Provides geographical insights into revenue and customer distribution.
 
-**KPIs**
+**Key KPIs**
 - Total Revenue
+- Total Customers
 - Total Orders
 - Average Order Value
-- Active Countries
 
 **Visualizations**
-- Revenue Trend
-- Monthly Sales
-- Revenue by Country
-- Sales Insights
+- Revenue Share by Country
+- Top Revenue Markets
+- Customer Distribution by Country
+- Revenue KPI by Country
+- Top Countries by Customer Count
 
 ---
 
-### Forecasting
+### 5. Advanced Analytics
 
-Predicts future sales performance using historical data and forecasting techniques.
+Presents advanced customer intelligence through RFM segmentation.
 
-**KPIs**
-- Forecast Revenue
-- Forecast Growth
-- Forecast Period
-- Confidence Level
+**Key KPIs**
+- Champions
+- Loyal Customers
+- Potential Loyalists
+- Lost Customers
+- At-Risk Customers
 
 **Visualizations**
-- Forecast Confidence Band
-- Historical Revenue Trend
-- Forecast Revenue by Country
-- Forecast Insights
+- Customer Segment Distribution
+- Revenue by Customer Segment
+- Revenue Contribution Analysis
+- Average Order Value by Segment
+- Orders by Customer Segment
 
 ---
 
-### Strategic Insights
+### 6. Strategic Recommendations
 
-Summarizes key business recommendations and strategic priorities for executive decision-making.
+Converts analytical findings into executive business recommendations.
 
-**KPIs**
-- Revenue Growth
-- Top Country
-- Champion Customers
-- Customer Retention Rate
+**Key KPIs**
+- Top Revenue Country
+- Best Customer Segment
+- Peak Sales Month
+- Highest Revenue
 
-**Visualizations**
-- Revenue Opportunities
-- Strategic Priorities
-- Business Initiatives Matrix
-- Executive Recommendations
+**Strategic Areas**
+- Revenue Growth Strategy
+- Customer Retention Strategy
+- Product Strategy
+- Geographic Expansion Strategy
+- Executive Summary
+- Business Priority Matrix
+- Key Takeaways
 
 ---
 
 ## Key Business Insights
 
-- Identified the highest revenue-generating market.
-- Segmented customers using RFM Analysis.
-- Evaluated Champion, Loyal, and At-Risk customer groups.
-- Identified top-performing products and revenue contributors.
-- Forecasted future revenue trends using historical sales data.
-- Developed strategic recommendations to improve business performance.
+- United Kingdom generated the highest overall revenue.
+- Champion customers contributed nearly half of the total business revenue.
+- Sales performance peaked during Quarter 4, especially in November.
+- Loyal customers generated consistent long-term revenue.
+- Several products accounted for the majority of total revenue, supporting Pareto analysis.
+- Geographic analysis identified expansion opportunities beyond the primary market.
+- Strategic recommendations focused on customer retention, inventory planning, and market expansion.
+
+---
+
+## Business Questions Answered
+
+- Which country generates the highest revenue?
+- Which customer segment contributes the most revenue?
+- Which products drive the majority of sales?
+- Which month records peak sales performance?
+- How are customers distributed across RFM segments?
+- Which markets present future growth opportunities?
+- What strategic initiatives should management prioritize?
 
 ---
 
 ## Skills Demonstrated
 
-- Data Cleaning and Transformation
-- Data Modeling
+- Business Intelligence
+- Power BI Dashboard Development
+- Data Cleaning
 - Power Query
+- Data Modeling
 - DAX Calculations
-- KPI Development
-- Forecasting
 - RFM Customer Segmentation
-- Market Basket Analysis
+- Executive KPI Design
+- Product Analytics
+- Geographic Analytics
+- Strategic Business Reporting
 - Interactive Dashboard Design
-- Business Intelligence Reporting
-- Data Visualization
 - Executive Storytelling
+
+---
+
+## Dashboard Preview
+
+### Executive Overview
+
+![Executive Overview](01_Executive_Overview.png)
+
+---
+
+### Customer Intelligence
+
+![Customer Intelligence](02_Customer_Intelligence.png)
+
+---
+
+### Product Analytics
+
+![Product Analytics](03_Product_Analytics.png)
+
+---
+
+### Geographic Analytics
+
+![Geographic Analytics](04_Geographic_Analytics.png)
+
+---
+
+### Advanced Analytics
+
+![Advanced Analytics](05_Advanced_Analytics.png)
+
+---
+
+### Strategic Recommendations
+
+![Strategic Recommendations](06_Strategic_Recommendations.png)
 
 ---
 
@@ -166,48 +228,15 @@ https://archive.ics.uci.edu/ml/datasets/online+retail+ii
 
 ---
 
-## Dashboard Preview
-
-### Executive Overview
-
-*<img width="488" height="280" alt="Executive_Overview" src="https://github.com/user-attachments/assets/3edfa20f-91dc-4b45-a930-c1c0e2a5a428" />
-*
-
-### Customer Analytics
-
-*<img width="488" height="275" alt="Customer_Analytics" src="https://github.com/user-attachments/assets/0eb9be4a-bbdc-43f3-81f5-f085f6dc4c11" />
-*
-
-### Product Analytics
-
-*<img width="488" height="277" alt="Product_Analytics" src="https://github.com/user-attachments/assets/9f3b82a1-3b3c-4229-89ae-20f2cec75e79" />
-*
-
-### Sales Analytics
-
-*<img width="488" height="277" alt="Sale_Analytics" src="https://github.com/user-attachments/assets/590ebf46-8485-4f67-80a4-680b27dca4ef" />
-*
-
-### Forecasting
-
-*<img width="488" height="277" alt="Forecasting" src="https://github.com/user-attachments/assets/0057ef40-925c-4087-931a-b7ccd76bf1e2" />
-*
-
-### Strategic Insights
-
-*<img width="489" height="278" alt="Strategic_Insights" src="https://github.com/user-attachments/assets/31d97f74-2988-467d-ac23-1f60a534c13b" />
-*
-
----
-
 ## Project Highlights
 
-- Developed a six-page interactive Power BI dashboard.
-- Designed executive-level KPIs for business monitoring.
-- Implemented customer segmentation using RFM analysis.
-- Performed product performance and market basket analysis.
-- Created revenue forecasting and confidence interval visualizations.
-- Delivered strategic insights and actionable business recommendations.
+- Developed a professional six-page executive dashboard.
+- Designed executive KPI cards with interactive slicers.
+- Implemented RFM customer segmentation.
+- Created advanced DAX measures for business metrics.
+- Built product, customer, and geographic performance dashboards.
+- Delivered executive recommendations backed by data-driven insights.
+- Applied modern dashboard design principles for executive reporting.
 
 ---
 
@@ -215,10 +244,10 @@ https://archive.ics.uci.edu/ml/datasets/online+retail+ii
 
 **Aleeza Iftikhar**
 
-GitHub: https://github.com/Aleeza4
+**GitHub:** https://github.com/Aleeza4
 
-LinkedIn: *https://www.linkedin.com/in/aleeza-iftikhar-61a56127b/*
+**LinkedIn:** *https://www.linkedin.com/in/aleeza-iftikhar-61a56127b/*
 
 ---
 
-If you found this project useful or interesting, consider starring the repository.
+If you found this project useful or insightful, please consider starring the repository.
